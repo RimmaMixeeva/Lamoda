@@ -1,0 +1,20 @@
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.App {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  position: relative;
+}
+.mainPart {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}

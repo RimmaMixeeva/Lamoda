@@ -1,0 +1,102 @@
+.done {
+  background-color: blueviolet;
+}
+#color {
+  margin-top: 4%;
+}
+.colorFilter {
+  width: 100%;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  padding-bottom: 2%;
+}
+#nameOfColorFilter {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.3em 0.5em;
+  font-size: 1.3em;
+  border-radius: 3px;
+  border: 0.5px solid rgb(161, 160, 160);
+  text-align: center;
+}
+#colorForm {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  float: left;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.5em 1em;
+  font-size: 1.1em;
+  border-radius: 3px;
+  border: 0.5px solid rgb(161, 160, 160);
+  margin-left: 2.3%;
+  margin-top: 1.8%;
+  height: 93%;
+}
+img {
+  width: 80%;
+  height: 100%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  color: rgb(0, 0, 0);
+  padding: 0.5em 1em;
+  font-size: 1.1em;
+  border-radius: 3px;
+  border: 0.5px solid rgb(161, 160, 160);
+}
+.filterButtons {
+  margin-top: 1%;
+}
+.filter {
+  margin-right: 1%;
+}
+.nameOfFilter {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.3em 0.5em;
+  font-size: 1.3em;
+  margin-top: 3%;
+  border-radius: 3px;
+  border: 0.5px solid rgb(161, 160, 160);
+  text-align: center;
+}
+.inputField {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  padding-top: 5%;
+}
+.input {
+  width: 50%;
+}
+#searchInput {
+  width: 100%;
+  height: 2em;
+}
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#noMatch {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: rgb(156, 154, 154);
+}
+#true {
+  background-color: blue;
+}
+#false {
+  background-color: rgb(36, 180, 0);
+}
